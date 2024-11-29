@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.cara{
+    width: 650px;
+    height: 850px;
+    background-color: #fad7a0;
+    border-radius: 400px 400px 400px 400px;
+    margin: 0 auto;
+    z-index: 1000000000;
+}
+
+.zonaojos{
+    height: 150px;
+    top: 350px;
+    background-color: ;
+}
+
+.izquierda{
+    width: 170px;
+    height: 70px;
+    background: white;
+    border-radius: 50%;
+    left: 100px;
+    float: left;
+    top: 20px;
+    box-shadow: 0px -5px 0px 0px black;
+}
+
+.derecha{
+    width: 170px;
+    height: 70px;
+    background: white;
+    border-radius: 50%;
+    left: 210px;
+    float: left;
+    top: 20px;
+    box-shadow: 0px -5px 0px 0px black;
+}
+
+.iris{
+    background-color: black;
+    height: 70px;
+    width: 100px;
+    border-radius: 50%;
+    top: 0px;
+    left: 35px;
+}
+
+.brillo{
+    background-color: white;
+    height: 10px;
+    width: 10px;
+    top: 15px;
+    left: 15px;
+    border-radius: 50%;
+}
+
+.primeramontura{
+    border: 10px solid black;
+    border-radius: 20%;
+    background-color: rgba(0, 255, 255, 25%);
+    height: 170px;
+    width: 250px;
+    left: 20px;
+    position: absolute;
+}
+
+.segundamontura{
+    border: 10px solid black;
+    border-radius: 20%;
+    background-color: rgba(0, 255, 255, 25%);
+    height: 170px;
+    width: 250px;
+    left: 360px;
+    position: absolute;
+}
+
+.junta{
+    height: 15px;
+    width: 90px;
+    background-color: black;
+    position: absolute;
+    top: 30px;
+    left: 280px;
+}
+
+.negroizquierda{
+    height: 50px;
+    width: 30px;
+    background-color: black;
+    top: 20px;
+}
+
+.negroderecha{
+    height: 50px;
+    width: 30px;
+    background-color: black;
+    top: 20px;
+    left: 620px;
+    position: absolute;
+
+}
+
+.nariz{
+    height: 50px;
+    width: 120px;
+    background-color: #f0b27a;
+    position: absolute;
+    top: 550px;
+    left: 262px;
+    border-radius: 40%;
+}
+
+
+.bocaizquierda{
+    height: 20px;
+    width: 80px;
+    background-color: #f1948a;
+    border-radius: 100% 25% 0% 0% / 100% 50% 0% 0%;
+    position: absolute;
+    top: 665px;
+    left: 240px;
+}
+
+.bocaiderecha{
+    height: 20px;
+    width: 80px;
+    background-color: #f1948a;
+    border-radius: 25% 100% 0% 0% / 50% 100% 0% 0%;
+    position: absolute;
+    top: 665px;
+    left: 320px;
+}
+
+.bocaabajo{
+    height: 30px;
+    width: 160px;
+    background-color: #f1948a;
+    border-radius: 0% 0% 50% 50% / 0% 0% 100% 100%;
+    position: absolute;
+    top: 685px;
+    left: 240px;
+}
+
+.lineaboca{
+    height: 2px;
+    width: 160px;
+    background-color: #ea7568;
+    top: 535px;
+    left: 240px;
+}
+
+.izquierdaoreja{
+    height: 210px;
+    width: 30px;
+    background-color:  #fad7a0;
+    position: absolute;
+    top: 340px;
+    left: -29px;
+    border-radius: 100% 100% 0% 200% / 100% 20% 0% 100%;
+}
+
+.derechaoreja{
+    height: 210px;
+    width: 30px;
+    background-color: #fad7a0;
+    position: absolute;
+    top: 340px;
+    left: 649px;
+    border-radius: 100% 100% 200% 0% / 20% 100% 100% 0%;
+}
+
+.cejaizquierda{
+    height: 200px;
+    width: 250px;
+    clip-path: polygon(3% 44%, 22% 30%, 85% 32%, 86% 50%, 28% 39%);
+    background-color: #220d00;
+    top: 105px;
+    left: 50px;
+}
+
+.cejaderecha{
+    height: 200px;
+    width: 250px;
+    clip-path: polygon(3% 44%, 22% 30%, 85% 32%, 86% 50%, 28% 39%);
+    background-color: #220d00;
+    top: -94px;
+    left: 358px;
+    transform: scaleX(-1);
+}
+
+.zonagorra{
+    height: 300px;
+    width: 658px;
+    background-color: ;
+    position: absolute;
+    left: -4px;
+}
+
+.cap{
+    width: 658px;
+    height: 282px;
+    border-radius: 200% 200% 0% 0% / 400% 400% 0% 0%;
+    position: absolute;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(60,60,60,1) 55%, rgba(0,0,0,1) 100%);
+}
+
+.visera{
+    width: 658px;
+    height: 50px;
+    position: absolute;
+    top: 250px;
+    border-radius: 100% 100% 100% 100% / 200% 200% 100% 100%;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(88,88,88,1) 100%);
+    box-shadow: 0px -5px 0px 0px black;
+}
+
+.cuello{
+    height: 150px;
+    width: 300px;
+    background-color: #f8c471;
+    top: -50px;
+    margin: 0 auto;
+    border-radius: 0 0 50% 50%;
+    z-index: 10000;
+}
+
+.capucha{
+    height: 150px;
+    width: 600px;
+    background-color: rebeccapurple;
+    top: -200px;
+    margin: 0 auto;
+    border-radius: 100% 100% 50% 50%;
+}
+
+.capuchaderecha{
+    height: 80px;
+    width: 300px;
+    background-color: red;
+    margin: 0 auto;
+    left: 150px;
+    top: -280px;
+}
+
+.capuchaizquierda{
+    height: 80px;
+    width: 300px;
+    background-color: yellow;
+    margin: 0 auto;
+}
